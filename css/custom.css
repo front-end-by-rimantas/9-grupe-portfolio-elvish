@@ -1,1 +1,34 @@
-/* all other styles, style updates, etc */
+Body, 
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+/* header */
+
+/* About me */
+
+/* our services */
+
+/* count timeline */
+
+/* education & experiance */
+
+/* freelance section */
+
+/* our work */
+
+/* our client */
+
+/* trusted be great people */
+
+/* subscribe */
+
+/* our blog */
+
+/* get in tuch */ 
+
+footer {
+    text-align: center;
+}
