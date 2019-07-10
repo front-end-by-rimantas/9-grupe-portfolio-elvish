@@ -1,1 +1,7 @@
-/* colors */
+:root {
+    --main-color: #FFFFFF;
+    --secondary-main-color: #F8F9FA;
+    --main-text-color: #000000;
+    --secondary-text-color: #868E96;
+
+}
