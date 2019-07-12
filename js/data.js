@@ -23,3 +23,31 @@ const footerIcons = [
     }
 
 ];
+
+const heroIcons = [
+    {
+        icon: 'facebook',
+        link: '#'
+    },
+
+    {
+        icon: 'dribbble',
+        link: '#'
+    },
+    
+    {
+        icon: 'twitter',
+        link: '#'
+    },
+
+    {
+        icon: 'linkedin',
+        link: '#'
+    },
+
+    {
+        icon: 'google-plus',
+        link: '#'
+    }
+
+];

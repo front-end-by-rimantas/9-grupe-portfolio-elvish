@@ -1,7 +1,9 @@
 :root {
     --main-color: #FFFFFF;
+    --main-color-anti: #000000;
     --secondary-main-color: #F8F9FA;
     --main-text-color: #000000;
+    --main-text-color-anti: #FFFFFF;
     --secondary-text-color: #868E96;
 
 }
