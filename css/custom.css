@@ -228,25 +228,96 @@ body * {
              }
 /* About me */
 
+#about_me {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color);
+}
+
 /* our services */
+
+#our_services {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--secondary-main-color);
+}
 
 /* count timeline */
 
+#counts {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color-anti);
+    color: white;
+}
+
 /* education & experiance */
+
+#education_experiance {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color);
+}
 
 /* freelance section */
 
+#freelance_section {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color-anti);
+    color: white;
+}
+
 /* our work */
+
+#our_work {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color);
+}
 
 /* our client */
 
+#our_client {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color-anti);
+    color: white;
+}
+
 /* trusted be great people */
+
+#tbgp {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--secondary-main-color); 
+}
 
 /* subscribe */
 
+#subscribe {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color);
+}
+
 /* our blog */
 
+#our_blog {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--secondary-main-color);
+}
+
 /* get in tuch */ 
+
+#get_in_tuch {
+    width: 100%;
+    padding: 0 calc((100% - 1000px) / 2);
+    background-color: var(--main-color);
+}
+
+/* footer */
 
 #footer {
     display: inline-block;
