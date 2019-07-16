@@ -1,4 +1,9 @@
 "use strict";
+
+// our services icons and text 
+
+
+
 // footer icons 
 
 const footerIcons = [

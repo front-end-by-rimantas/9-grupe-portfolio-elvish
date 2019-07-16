@@ -63,7 +63,7 @@ body * {
     display: inline-block;
     background-color: #000000;
     width: 100%;
-    padding: 0 calc((100% - 1100px) / 2);
+    padding: 0 calc((100% - 1150px) / 2);
     padding-bottom: 30px;
     }
 
@@ -72,11 +72,12 @@ body * {
 
     }
 
-    #main_header > .row img {
+    #main_header > .row span {
         display: inline-block;
         float: left;
-        padding: 4px 40px;
-        height: 65px;
+        color: var(--main-text-color-anti);
+        font-size: 35px;
+        height: 50px;
         width: auto;
     }
 
@@ -89,14 +90,13 @@ body * {
 }
 
 #main_header > .row > .nav a {
+    font-family: sans-serif;
     display: inline-block;
     font-weight: 500;
     color: var(--main-text-color-anti);
     text-decoration: none;
-    padding: 0px 12px 0px 5px;
+    padding: 0px 22px 0px 5px;
     font-size: 15px;
-
-
 }
 /*#header .bars {
     display: none;
@@ -224,7 +224,6 @@ body * {
              }
 /* About me */
 
-
 #about_me {
     width: 100%;
     padding: 0 calc((100% - 1000px) / 2);
@@ -237,6 +236,18 @@ body * {
     width: 100%;
     padding: 0 calc((100% - 1000px) / 2);
     background-color: var(--secondary-main-color);
+    text-align: center;
+}
+
+#our_services > .row > .main_title{
+    display:inline-block;
+    width: 100%;
+    color: var(--main-text-color);
+    font-size: 23px;
+    font-weight: 700!important;
+
+
+    
 }
 
 /* count timeline */
