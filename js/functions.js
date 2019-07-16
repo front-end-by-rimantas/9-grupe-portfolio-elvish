@@ -1,4 +1,7 @@
 "use strict";
+
+// our services 
+
 // footer 
 
 function generateFooterIcons( data ) {
