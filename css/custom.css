@@ -233,8 +233,9 @@ body * {
 /* our services */
 
 #our_services {
+    display:inline-block;
     width: 100%;
-    padding: 0 calc((100% - 1000px) / 2);
+    padding: 0 calc((100% - 1200px) / 2);
     background-color: var(--secondary-main-color);
     text-align: center;
 }
@@ -243,13 +244,34 @@ body * {
     display:inline-block;
     width: 100%;
     color: var(--main-text-color);
-    font-size: 23px;
-    font-weight: 700!important;
-
-
-    
+    margin: 65px 0px 0px 0px;
+    padding: 5px;
 }
 
+#our_services > .row > .main_title h2 {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+#our_services > .row > .main_title span {
+    font-size: 29px;
+    font-weight: lighter;
+}
+
+#our_services > .row > .space {
+    font-size: 15px;
+}
+
+#our_services > .row > .space::before {
+        content: '-';
+        display: inline-block;
+        width: 100px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+}
 /* count timeline */
 
 #counts {
