@@ -261,6 +261,7 @@ body * {
 #our_services > .row > .space {
     font-size: 15px;
     margin: 10px;
+    color: var(--main-text-color);
 }
 
 #our_services > .row > .space::before {
@@ -277,6 +278,7 @@ body * {
     content: '';
     display: inline-block;
     border: 0.5px solid var(--secondary-text-color);
+    background-color: var(--secondary-text-color);
     width: 24px;
     margin-bottom: 7px;
     margin-left: 7px;
