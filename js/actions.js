@@ -7,3 +7,5 @@ document.querySelector('#HERO .hero_social_icons').innerHTML = generateheroIcons
 
 // our services 
 
+// achievments section
+document.querySelector('#our_services .blocks-list').innerHTML = generateourServices( ourServices );
