@@ -202,14 +202,11 @@ body * {
     width: 100%;
     padding: 80px 0;
     text-align: center;
-     
 }
     .container > .row {
         display: inline-block;
         width: 1200px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        
-       
     }
         .container > .row > .about-me {
             display: inline-block;
@@ -254,18 +251,49 @@ body * {
         .container > .row > .left {
             display: inline-block;
             width: 50%;
-            text-align: right;
+            float: left;
         }  
         .container > .row > .right {
             display: inline-block;
             width: 47%;
             margin-left: 3%;
-            text-align: left;
-            
+            float: left;
         }
+        #about.row > .space {
+            font-size: 15px;
+            margin: 10px;
+            }
+            
+            #about> .row > .space::before {
+            content: '';
+            display: inline-block;
+            border: 0.5px solid var(--secondary-text-color);
+            width: 24px;
+            margin-bottom: 7px;
+            margin-right: 7px;
+            padding-left: 4px
+            
+            }
+            
+            #about> .row > .space::after {
+            content: '';
+            display: inline-block;
+            border: 0.5px solid var(--secondary-text-color);
+            width: 24px;
+            margin-bottom: 7px;
+            margin-left: 7px;
+            padding-right: 4px
+            
+            }
+            
+            #about > .row p {
+            margin: 0px 70px 0px;
+            padding: 10px 205px 10px;
+            
+            
+            }
         
-
-/* our services */
+                  /* our services */
 #services-list.row {
 display:inline-block;
 width: 100%;
@@ -306,6 +334,7 @@ width: 24px;
 margin-bottom: 7px;
 margin-right: 7px;
 padding-left: 4px
+
 }
 
 #our_services > .row > .space::after {
@@ -316,6 +345,7 @@ width: 24px;
 margin-bottom: 7px;
 margin-left: 7px;
 padding-right: 4px
+
 }
 
 #our_services > .row p {
@@ -341,6 +371,7 @@ padding: 10px 205px 10px;
     width: 100%;
     padding: 0 calc((100% - 1200px) / 2);
     background-color: var(--main-color);
+    
 }
 
 /* freelance section */
