@@ -1,1 +1,36 @@
-/* header */
+/* Header */
+#header nav {
+    display: none;
+    width: 100%;
+}
+    #header nav > a:hover::after {
+        left: 25px;
+    }
+    #header nav > a.active::after {
+        left: 25px;
+    }
+    #header nav > a {
+        display: inline-block;
+    }
+    /* #header nav > a:first-child {
+        margin: 0 0 0 20px;
+    } */
+    #header .bars {
+        display: inline-block;
+        margin-right: 40px;
+        margin-top: 10px;
+        width: 26px;
+    }
+    #header .fa.fa-bars {
+        display: inline-block;
+        color: black;
+        font-size: 30px;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+        #header.transparent .bars {
+            background-color: #FFF;
+        }
+    .hero h5 {
+        font-size: 40px;
+    }

@@ -5,9 +5,9 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
-}
+
  
-#main_header {
+#header {
     display: inline-block;
     background-color: #000000;
     width: 100%;
@@ -29,16 +29,13 @@ body * {
         width: auto;
     }
 
-#main_header > .row > .nav {
+#header > .row > .nav {
     display: inline-block;
-    float: right;
     margin: 13px 30px;
     padding: 9px 10px;
     line-height: 22px;
 }
 
-#main_header > .row > .nav a {
-    font-family: sans-serif;
     display: inline-block;
     font-weight: 500;
     color: var(--main-text-color-anti);
@@ -46,6 +43,56 @@ body * {
     padding: 0px 22px 0px 5px;
     font-size: 15px;
 }
+
+=======
+#header .bars {
+    display: none;
+}
+        #header nav > a.active::after {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background-color: var(--black-color-1);
+            position: absolute;
+            border-radius: 50%;
+            bottom: 0%;
+            left: calc((100% - 10px) / 2);
+           }
+        #header nav > a {
+            display: inline-block;
+            margin: 0 0 0 20px;
+            padding: 0 10px;
+            color: var(--black-color-1);
+            text-decoration: none;
+            line-height: 45px;
+            position: relative;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+            #header.transparent > nav > a {
+                color: #FFF;
+            }
+            #header.transparent nav > a.active::after {
+                background-color: #FFF;
+            }
+        #header nav > a:first-child {
+            margin: 0;
+        }
+        #header nav > a:hover::after {
+            content: "";
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            background-color: var(--black-color-1);
+            position: absolute;
+            border-radius: 50%;
+            bottom: 0;
+            left: calc((100% - 10px) / 2);
+            }
+            #header.transparent nav > a:hover::after {
+                background-color: #FFF; 
+            }
+        
              
 /* hero */
 #HERO {
@@ -122,12 +169,91 @@ body * {
                 text-align: center; 
              }
 /* About me */
-
-#about_me {
+  
+#conterner {
+    display: inline-block;
     width: 100%;
     padding: 0 calc((100% - 1000px) / 2);
     background-color: var(--main-color);
 }
+
+#about > .row > .block {
+    text-align: center;
+} 
+.container > .row > .left {
+    width: 100%;
+    margin-left: 0;
+}
+.container > .row > .right {
+    width: 100%;
+    margin-left: 0;
+}
+.container > .row {
+    display: inline-block;
+    width: 1200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    .container > .row > .about-me {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        
+        
+    }
+     .block > h3 {
+        font-size: 35px;
+        
+  }
+  
+    .block > h3 > span {
+        font-size: 25px;
+        text-decoration-style: solid;
+    }
+    .container > .row > .hello {
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+        ul.inline-list {    
+            display: inline-block;  
+            list-style: none;
+            font-size: 20px;
+            margin: 20px;
+            color: var(--text-color);
+        }
+        li {
+            display: inline-block;
+        }
+        li::after {
+            content: "";
+            height: 3px;
+            width: 3px;
+            border-radius: 50%;
+            background-color: var(--text-color);
+            margin: 0px 12px;
+            position: relative;
+            display: inline-block;
+            top: -3px;
+        }
+        li.no-style::after {
+            display: none;
+        }
+        p.text-about-me {
+            font-size: 15px;
+        } 
+    .container > .row > .left {
+        display: inline-block;
+        width: 50%;
+    }  
+    .container > .row > .right {
+        display: inline-block;
+        width: 47%;
+        margin-left: 3%;
+    
+    }
 
 /* our services */
 
@@ -285,7 +411,6 @@ body * {
 
 #footer > .row > .social_icons {
     display: inline-block;
-    float: right; 
     margin: 10px;
     padding:10px 25px; 
 }
