@@ -3,9 +3,11 @@
 
 document.querySelector('#footer .social_icons').innerHTML = generateFooterIcons( footerIcons );
 
-document.querySelector('#HERO .hero_social_icons').innerHTML = generateheroIcons( heroIcons );
+document.querySelector('#HERO .hero_social_icons').innerHTML = generateHeroIcons( heroIcons );
 
 // our services 
 
 // achievments section
-document.querySelector('#our_services .blocks-list').innerHTML = generateourServices( ourServices );
+
+document.querySelector('#our_services .row .block_list').innerHTML = generateOurServices( ourServices );
+

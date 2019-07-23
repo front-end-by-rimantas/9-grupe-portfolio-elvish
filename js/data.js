@@ -7,37 +7,31 @@ const ourServices = [
         title: 'Graphic Design',
         text: 'The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.'
     },
-    
     {
         icon: 'pencil-square-o',
         title: 'Unlimeted Colors',
         text: 'The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.'
     },
-
     {
         icon: 'line-chart',
         title: 'Media Marketing',
         text: 'The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.'
     },
-
     {
         icon: 'wifi',
         title: 'Unlimeted Wifi',
         text: 'The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.'
     }, 
-
     {
         icon: 'tablet',
         title: 'Responsive Designe',
         text: 'The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.'
     },
-
     {
         icon: 'pencil',
         title: 'Easy To Customize',
         text: 'The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.'
     }
-
 ];
 
 
