@@ -1,17 +1,17 @@
 "use strict";
 
 // our services 
-// generate Achievments
-function generateourServices( data ) {
+
+function generateOurServices( data ) {
     let HTML = '',
         countValid = 0;
 
     for ( let i=0; i<data.length; i++ ) {
-        if ( countValid >= 4 ) {
+        if ( countValid >= 3 ) {
             break;
         }
         if ( !data[i].icon ||
-             !data[i].title ||
+             !data[i].title||
              !data[i].text) {
             continue;
         }
@@ -19,15 +19,15 @@ function generateourServices( data ) {
         if ( data[i].value ) {
             HTML += `<div class="block-list">
                         <i class="fa fa-${data[i].icon}"></i>
-                        <h3>${data[i].title}</h3>
-                        <p>${data[i].text}</p>
+                        <p>${data[i].title}</p>
+                        <h4>${data[i].text}</h4>
                     </div>`;
         }
         if ( data[i].description ) {
             HTML += `<div class="block-list">
                         <i class="fa fa-${data[i].icon}"></i>
-                        <h3>${data[i].title}</h3>
-                        <p>${data[i].description}</p>
+                        <h4>${data[i].title}</h4>
+                        <p>${data[i].text}</p>
                     </div>`;
         }
         countValid++;
@@ -68,7 +68,7 @@ function generateFooterIcons( data ) {
     return HTML;
 }
 
-function generateheroIcons( data ) {
+function generateHeroIcons( data ) {
 
     let HTML = '';
 
