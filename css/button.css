@@ -10,9 +10,7 @@
     cursor: pointer;
     
 }
-.button:hover{
-    background-color: white;
-}
+
 .btn{
     display: inline-block;
     background-color: black;
