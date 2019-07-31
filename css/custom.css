@@ -94,17 +94,17 @@ body * {
             color: var(--main-text-color-anti);
         }
 
-        #HERO > .row > .button a {
-            padding: 14px 15px;
+        #HERO > .row > .button {
             color: var(--main-text-color-anti);
 
 
         }
+        
+        #HERO > .row > .button:hover{
+            background-color: white;
+            color: black;
 
-        #HERO > .row > .button a:hover {
-            color: var(--main-text-color);
-
-        }    
+        }
     
         #hero > .moving {
             display: inline-block;
