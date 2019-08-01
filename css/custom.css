@@ -181,6 +181,12 @@ body * {
 
 /* About me */
 
+#about {
+    width: 100%;
+    padding: 0 calc((100% - 1200px) / 2);
+    text-align: center;
+}
+
 #about > .row {
     display: inline-block;
     width: 100%;
@@ -201,7 +207,6 @@ body * {
             max-width: 240px;
             height: auto;
             margin-bottom: 15px;
-            
 
         }
     
@@ -233,8 +238,7 @@ body * {
             
                   /* our services */
 
-#our_services > .row {
-display:inline-block;
+#our_services {
 width: 100%;
 padding: 0 calc((100% - 1200px) / 2);
 background-color: var(--secondary-main-color);
