@@ -171,6 +171,7 @@ body * {
 
 .row p {
     display: inline-block;
+    width: 100%;
     border: 10px solid transparent;
     width: 50%;
     color: var(--secondary-text-color);
@@ -194,6 +195,15 @@ body * {
         text-align: center;
         margin-bottom: 40px;
     }
+
+        #about > .row > .main_title img {
+            display: inline-block;
+            max-width: 240px;
+            height: auto;
+            margin-bottom: 15px;
+            
+
+        }
     
             .main_title > ul.inline-list {      
                 list-style: none;
