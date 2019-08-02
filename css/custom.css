@@ -363,116 +363,94 @@ padding: 10px 205px 10px;
     color: white;
 }
 
-/* education & experiance */
 
+/* education and experience */
 
-#education-list.row {
-    display:inline-block;
+.education-content {
     width: 100%;
-    padding: 0 calc((100% - 1200px) / 2);
-    background-color: var(--secondary-main-color);
-    text-align: center;
-    }
-    #education > .row > .main_title{
-    display:inline-block;
-    width: 100%;
-    color: var(--main-text-color);
-    font-size: 23px;
-    margin: 65px 0px 0px 0px;
-    padding: 5px;
-    }
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 100px;
     
-    #education> .row > .main_title h2 {
-    font-size: 29px;
-    font-weight: bold;
-    }
-    
-    #education {
-        display:inline-block;
-        width: 100%;
-        padding: 0 calc((100% - 1200px) / 2);
-        background-color: var(--secondary-main-color);
-        text-align: center;
-    }
-    
-    #education> .row > .main_title{
-        display:inline-block;
-        width: 100%;
-        color: var(--main-text-color);
-        margin: 65px 0px 0px 0px;
-        padding: 5px;
-    }
-    
-    #education > .row > .main_title h2 {
-        font-size: 29px;
-        font-weight: bold;
-    }
-    
-    #education > .row > .main_title span {
-        font-size: 29px;
-        font-weight: 300;
-    }
-    
-    #education > .row > .space {
-        font-size: 15px;
-        margin: 10px;
-        color: var(--main-text-color);
-    }
-    
-    #education > .row > .space::before {
-        content: '';
+}
+    .education-content .education-content-left {
+        width: 40%;
         display: inline-block;
-        border: 0.5px solid var(--secondary-text-color);
-        width: 24px;
-        margin-bottom: 7px;
-        margin-right: 7px;
-        padding-left: 4px
-    }
-    
-    #education > .row > .space::after {
-        content: '';
-        display: inline-block;
-        border: 0.5px solid var(--secondary-text-color);
-        background-color: var(--secondary-text-color);
-        width: 24px;
-        margin-bottom: 7px;
-        margin-left: 7px;
-        padding-right: 4px
-    }
-    
-    #education > .row p {
-        margin: 0px 70px 0px;
-        padding: 10px 205px 10px;
-    
-    }
-    .container{
-        display:inline-block;
-        width:100%;
-    }
-    .container>content{
-        display: inline-block;
-        width: 800px;
-        margin: 60px calc((100% - 800px) / 2);
-    }
-    .container>content>left{
-        display: inline-block;
-        width: 50%;
-        float:left;
-    }
+        float: left;
+        text-align: right;
 
-    .container>content>right {
+    }
+    .education-content .education-content-right {
+        width: 40%;
+        display: inline-block;
+        float: right;
+        text-align: left;
+        
+    }
+        .education-content .education-content-left > div {
             display: inline-block;
-            width: 50%;
-            margin-left:10%;
-            float:right;
-    }
-    
-    .container>content>right >form {
+            border-right: 1px solid var(--black-color-1);
+            margin-right: 35px;
+            
+        }
+        .education-content .education-content-right > div {
+            display: inline-block;
+            border-left: 1px solid var(--black-color-1);
+            margin-left: 35px;
+        }
+            
+            .education-content .column div  {
                 display: inline-block;
-                width: 50%;
-                margin-left: 10%;
-                float:right;
+                width: 100%;
+                padding: 0 30px 0 30px;
+                margin-top: 30px;
+                position: relative;
             }
+
+            .bullet-point {
+                display: inline-block;
+                position: relative;
+            }
+            .bullet-point::after {
+                content: "";
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                border: 2px solid #2e353e;
+                background-color: #2e353e;
+                position: absolute;
+                top: 0px;
+            }
+            .left-column::after {
+                right: -6px;
+            }
+            .right-column::after {
+                left: -6px;
+            }
+
+                .education-content .column span {
+                    display: inline-block;
+                    width: 100%;
+                    text-transform: capitalize;
+                    font-size: 12px;
+                }
+                    .education-content .column h5 {
+                        display: inline-block;
+                        width: 100%;
+                        color: var(--black-color-1);
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        margin: 15px 0 10px;
+                    }
+                        .education-content .column h6 {
+                            display: inline-block;
+                            width: 100%;
+                            text-transform: capitalize;
+                            font-size: 13px;
+                        }
+
+                        /* Education & Experience end*/
             
     /* freelance section */
 
