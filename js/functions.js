@@ -97,3 +97,21 @@ function generateHeroIcons( data ) {
 
     return HTML;
 }
+
+
+// education and experience
+
+function generateEducation( data ) {
+    var HTML = '';
+
+    data.forEach( (education) => {
+        HTML += `<div class="edu">
+                        <div class="period">${education.period}</div>
+                        <div class="about">
+                            <h4>${education.position}</h4>
+                            <span>${education.description}</span>
+                        </div>
+                </div>`;
+    });
+        return HTML;
+}
