@@ -7,7 +7,7 @@ body * {
     font-family: Montserrat, sans-serif;
 }
 
-/* heder */
+/* header */
         
 #main_header {
     display: inline-block;
@@ -132,116 +132,141 @@ body * {
     padding: 80px 0;
     text-align: center;
 }
-    #about > .row {
-        display: inline-block;
-        width: 1200px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 40px;
-        
-        
-    }
-     .block > h3 {
-        font-size: 35px;
-        
-  }
-  
-    .block > h3 > span {
-        font-size: 25px;
-        text-decoration-style: solid;
-    }
-    #about > .row > .hello {
-        font-family: 'Montserrat', sans-serif;
-        width: 100%;
-        text-align: center;
-        font-size: 35px;
-        margin-bottom: 40px;
-    }
-        #about > .row > .about-me {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-            #about > .row > .hello {
-            font-family: 'Montserrat', sans-serif;
-            width: 100%;
-            text-align: center;
-            font-size: 35px;
-            margin-bottom: 40px;
-        }
-            ul.inline-list {    
-                display: inline-block;  
-                list-style: none;
-                font-size: 20px;
-                margin: 20px;
-                color: var(--text-color);
-            }
-            li {
-                display: inline-block;
-            }
-            li::after {
-                content: "";
-                height: 3px;
-                width: 3px;
-                border-radius: 50%;
-                background-color: var(--text-color);
-                margin: 0px 12px;
-                position: relative;
-                display: inline-block;
-                top: -3px;
-            }
-            li.no-style::after {
-                display: none;
-            }
-            p.text-about-me {
-                font-size: 17px;
-            } 
-            #about > .row > .left {
-            display: inline-block;
-            width: 50%;
-            float: left;
-        }  
-            #about > .row > .right {
-            display: inline-block;
-            width: 47%;
-            margin-left: 3%;
-            float: left;
-        }
-            #about > .row > .space {
-            font-size: 15px;
-            margin: 10px;
-            }
-            
-            #about > .row > .space::before {
-            content: '';
-            display: inline-block;
-            border: 0.5px solid var(--secondary-text-color);
-            width: 24px;
-            margin-bottom: 7px;
-            margin-right: 7px;
-            padding-left: 4px
-            
-            }
-            
-            #about > .row > .space::after {
-            content: '';
-            display: inline-block;
-            border: 0.5px solid var(--secondary-text-color);
-            width: 24px;
-            margin-bottom: 7px;
-            margin-left: 7px;
-            padding-right: 4px
-            
-            }
-            
-            #about > .row p {
-            margin: 0px 70px 0px;
-            padding: 10px 205px 10px;
-            
-            
-            }
+#about > .row {
+    display: inline-block;
+    width: 1200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.block > h3 {
+    font-size: 35px;
+}
+
+.block > h3 > span {
+    font-size: 25px;
+    text-decoration-style: solid;
+}
+
+#about > .row > .hello {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+#about > .row > .about-me {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#about > .row > .hello {
+font-family: 'Montserrat', sans-serif;
+width: 100%;
+text-align: center;
+font-size: 35px;
+margin-bottom: 40px;
+}
+
+ul.inline-list {    
+    display: inline-block;  
+    list-style: none;
+    font-size: 20px;
+    margin: 20px;
+    color: var(--text-color);
+}
+li {
+    display: inline-block;
+}
+
+li::after {
+    content: "";
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    margin: 0px 12px;
+    position: relative;
+    display: inline-block;
+    top: -3px;
+}
+
+li.no-style::after {
+    display: none;
+}
+
+p.text-about-me {
+    font-size: 17px;
+} 
+
+#about > .row > .left {
+display: inline-block;
+width: 50%;
+float: left;
+}  
+
+#about > .row > .right {
+display: inline-block;
+width: 47%;
+margin-left: 3%;
+float: left;
+}
+
+#about > .row > .space {
+font-size: 15px;
+margin: 10px;
+}
+
+#about > .row > .space::before {
+content: '';
+display: inline-block;
+border: 0.5px solid var(--secondary-text-color);
+width: 24px;
+margin-bottom: 7px;
+margin-right: 7px;
+padding-left: 4px
+
+}
+
+#about > .row > .space::after {
+content: '';
+display: inline-block;
+border: 0.5px solid var(--secondary-text-color);
+width: 24px;
+margin-bottom: 7px;
+margin-left: 7px;
+padding-right: 4px
+
+}
+
+#about > .row p {
+margin: 0px 70px 0px;
+padding: 10px 205px 10px;
+}
+
+#about > .row > .left > .progress-bar > .bar{
+    animation-duration: 1s;
+    animation-name: texts;
+    background-color: grey;
+    text-align: left;
+} 
+
+#about > .row > .left > .progress-bar > .bar > .bar-value > .loading {
+    animation-duration: 1s;
+    animation-name: texts;
+    width: 80%;
+    background-color: black;
+} 
+
+/* @keyframes texts {
+    from {width: 0;}
+    to {width: 80%;}
+} */
+
         
                   /* our services */
 #services-list.row {
