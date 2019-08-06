@@ -251,7 +251,7 @@ padding: 10px 205px 10px;
 #about > .row > .left > .progress-bar > .bar{
     animation-duration: 1s;
     animation-name: texts;
-    background-color: grey;
+    background-color:grey;
     text-align: left;
 } 
 
@@ -525,7 +525,6 @@ padding: 10px 205px 10px;
         width: 100%;
         height: 100%;
     }
-}
 
 /* subscribe */
 
