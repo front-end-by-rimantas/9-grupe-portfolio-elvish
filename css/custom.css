@@ -153,7 +153,7 @@ body * {
 #about > .row > .hello {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    text-align: center;
+    text-align:center;
     font-size: 35px;
     margin-bottom: 40px;
 }
@@ -163,6 +163,7 @@ body * {
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
+  
 }
 #about > .row > .hello {
 font-family: 'Montserrat', sans-serif;
