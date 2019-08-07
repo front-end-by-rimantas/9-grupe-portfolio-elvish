@@ -2,39 +2,26 @@
 
 // our services 
 
-function generateOurServices( data ) {
+function generate( target, data ){
     let HTML = '',
-        countValid = 0;
+        html_template = document.querySelector(`${target}`).innerHTML,
+        template = '';
+    const keywords = Object.keys( data[0] );
 
-    for ( let i=0; i<data.length; i++ ) {
-        if ( countValid >= 3 ) {
-            break;
-        }
-        if ( !data[i].icon ||
-             !data[i].title||
-             !data[i].text) {
-            continue;
-        }
+    data.forEach( item => {
+        template = html_template;
+        
+        keywords.forEach( keyword => {
+            template = template.replace('{{'+keyword+'}}', item[keyword] );
+        });
+        
+        HTML += template;
+    });
 
-        if ( data[i].value ) {
-            HTML += `<div class="block-list">
-                        <i class="fa fa-${data[i].icon}"></i>
-                        <p>${data[i].title}</p>
-                        <h4>${data[i].text}</h4>
-                    </div>`;
-        }
-        if ( data[i].description ) {
-            HTML += `<div class="block-list">
-                        <i class="fa fa-${data[i].icon}"></i>
-                        <h4>${data[i].title}</h4>
-                        <p>${data[i].text}</p>
-                    </div>`;
-        }
-        countValid++;
-    }
-
-    return HTML;
+    return document.querySelector(target).innerHTML = HTML;
 }
+
+generate('.block_list', ourServices);
 
 // footer 
 
