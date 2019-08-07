@@ -7,6 +7,11 @@ document.querySelector('#HERO .hero_social_icons').innerHTML = generateHeroIcons
 
 // our services 
 
+// Education and experience
+
+
+document.getElementById('education_list').innerHTML = generateEducation( education );
+
 // achievments section
 
 document.querySelector('#our_services .row .block_list').innerHTML = generateOurServices( ourServices );

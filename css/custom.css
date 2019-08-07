@@ -254,12 +254,134 @@ text-align: center;
     color: white;
 }
 
-/* education & experiance */
+/* education  */
 
-#education_experiance {
+.education-content {
     width: 100%;
-    padding: 0 calc((100% - 1200px) / 2);
-    background-color: var(--main-color);
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+    
+}
+    .education-content .education-content-left {
+        width: 40%;
+        display: inline-block;
+        float: left;
+        text-align: right;
+
+    }
+    .education-content .education-content-right {
+        width: 40%;
+        display: inline-block;
+        float: right;
+        text-align: left;
+        
+    }
+        .education-content .education-content-left > div {
+            display: inline-block;
+            border-right: 1px solid var(--black-color-1);
+            margin-right: 35px;
+            
+        }
+        .education-content .education-content-right > div {
+            display: inline-block;
+            border-left: 1px solid var(--black-color-1);
+            margin-left: 35px;
+        }
+            
+            .education-content .column div  {
+                display: inline-block;
+                width: 100%;
+                padding: 0 30px 0 30px;
+                margin-top: 30px;
+                position: relative;
+            }
+
+            .bullet-point {
+                display: inline-block;
+                position: relative;
+            }
+            .bullet-point::after {
+                content: "";
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                border: 2px solid #2e353e;
+                background-color: #2e353e;
+                position: absolute;
+                top: 0px;
+            }
+            .left-column::after {
+                right: -6px;
+            }
+            .right-column::after {
+                left: -6px;
+            }
+
+                .education-content .column span {
+                    display: inline-block;
+                    width: 100%;
+                    text-transform: capitalize;
+                    font-size: 12px;
+                }
+                    .education-content .column h5 {
+                        display: inline-block;
+                        width: 100%;
+                        color: var(--black-color-1);
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        margin: 15px 0 10px;
+                    }
+                        .education-content .column h6 {
+                            display: inline-block;
+                            width: 100%;
+                            text-transform: capitalize;
+                            font-size: 13px;
+                        }
+
+    /* resume responsive */
+            @media ( max-width: 800px ) {
+                .education-content .education-content-left div {
+                    border-right: none;
+                    border-left: 1px solid var(--black-color-1);
+                    margin-left: 35px;
+                }
+
+                .education-content .education-content-left {
+                    width: 90%;
+                    float: left;
+                    text-align: left;
+                    padding-bottom: 50px;
+        
+                }
+                .education-content .education-content-right {
+                    width: 90%;
+                    float: left;
+                    text-align: left;
+                    padding-bottom: 50px;
+                }
+
+                
+
+                .left-column::after {
+                    display: none;
+                }
+
+                .left-column::before {
+                    content: "";
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    border: 2px solid #2e353e;
+                    background-color: #2e353e;
+                    position: absolute;
+                    top: 0px;
+                    margin-left: -36px;
+                }
+        
+    /* education end */
     
 }
 
@@ -289,13 +411,28 @@ text-align: center;
     color: white;
 }
 
-/* trusted be great people */
-
-#tbgp {
-    width: 100%;
-    padding: 0 calc((100% - 1000px) / 2);
-    background-color: var(--secondary-main-color); 
+/* Trusted by great people*/
+.container > .row > div > h3{
+    text-align: center;
+    color: var(--text-color);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0;
+   
 }
+#line{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 0 auto;
+    max-width: 1200px;
+    grid-column-gap: 40px;
+    grid-auto-rows: 100px;
+}
+    #line > div *{
+        width: 100%;
+        height: 100%;
+    }
 
 /* subscribe */
 

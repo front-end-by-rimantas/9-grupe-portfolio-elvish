@@ -39,3 +39,11 @@ progress-bar {
                 animation-name: augimas;
                 animation-duration: 3s;
             }
+            @keyframes augimas {
+                0% {
+                    width: 0%;
+                }
+                100% {
+                    width: 100%;
+                }
+            }
