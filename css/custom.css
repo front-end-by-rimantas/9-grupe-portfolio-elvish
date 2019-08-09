@@ -221,7 +221,7 @@ body * {
                 color: var(--secondary-text-color);
                 font-weight: bolder;
                 margin: 10px;
-            
+                line-height: 20px;
             }
             
             #about > .row > .left {
@@ -309,7 +309,7 @@ text-align: center;
                 height: 8px;
                 border-radius: 50%;
                 border: 2px solid #2e353e;
-                background-color: #2e353e;
+                background-color: black;
                 position: absolute;
                 top: 0px;
             }
@@ -374,8 +374,8 @@ text-align: center;
                     width: 8px;
                     height: 8px;
                     border-radius: 50%;
-                    border: 2px solid #2e353e;
-                    background-color: #2e353e;
+                    border: 2px solid gray;
+                    background-color: black;
                     position: absolute;
                     top: 0px;
                     margin-left: -36px;
